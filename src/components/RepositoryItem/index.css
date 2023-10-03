@@ -1,1 +1,28 @@
 /* Write your CSS here */
+.each-repo {
+  margin: 10px;
+  width: 250px;
+  background-color: #f8f8ff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #e73959;
+}
+.avatar {
+  width: 100px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 10px;
+  width: 20px;
+}

@@ -1,1 +1,28 @@
 /* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Lobster';
+  font-size: 50px;
+}
+.filter-container {
+  list-style-type: none;
+  display: flex;
+}
+.repos-container {
+  list-style-type: none;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.failure-image {
+  width: 500px;
+}
+.failure-heading {
+  font-family: 'Bree Serif';
+  text-align: center;
+}

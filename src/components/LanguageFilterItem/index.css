@@ -1,1 +1,16 @@
 /* Write your CSS here */
+.each-filter {
+  margin-right: 20px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.active {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 4px;
+}
